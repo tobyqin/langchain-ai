@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langchain-ai"
+version = "0.1.0"
+description = ""
+authors = ["Toby Qin <toby.qin@live.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+langchain = ">=0.2.0,<0.3.0"
+langchain-openai = ">=0.1.0,<0.2.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
